@@ -1,4 +1,4 @@
-from utils.funções import menu,leiaInt
+from utils.funcoes import menu,leiaInt
 from utils.arquivos import arcExiste, criarArc, lerArc,cadastro, deleta
 
 arq = 'arquivo.txt'
@@ -25,5 +25,6 @@ while True:
         deleta(arq,nome,idade)
     menu()
 print("Tchau! Volte sempre")
+
 
     
